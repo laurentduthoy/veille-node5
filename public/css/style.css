@@ -1,1 +1,1 @@
-html{box-sizing:border-box;font-family:Roboto}*,:after,:before{box-sizing:inherit}table{border:1px solid #000}
+html{box-sizing:border-box;font-family:Roboto}*,:after,:before{box-sizing:inherit}table{border:1px solid #000;border-collapse:collapse}table tr:first-child{background-color:gray;color:#fff}table tr td{border:1px solid #000}
