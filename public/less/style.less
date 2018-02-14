@@ -20,12 +20,21 @@ table{
 	text-align: center;
 
 	tr{
+		&:nth-child(odd){
+			background-color: lightgrey;
+		}
+
 		&:first-child{
 			background-color: gray;
 			color:white;
 			text-align: center;
 			text-transform: uppercase;
 		}
+
+		&:hover{
+			background-color: lightgreen;
+		}
+
 		td{
 			&:first-child{
 				display:none;
